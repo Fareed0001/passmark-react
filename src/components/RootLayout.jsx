@@ -4,14 +4,14 @@ import DashboardSidebar from "./Sidebar";
 
 const RootLayout = () => {
   return (
-    <div className="flex h-screen  xl:gap-x-2">
+    <div className="flex h-screen ">
       <div className="w-0 lg:w-1/5">
         <DashboardSidebar />
       </div>
 
-      <div className="flex flex-col flex-1 h-full">
+      <div className="flex flex-col flex-1 h-full ">
         <Navbar />
-        <main className="flex-grow   py-5 px-10 ">
+        <main className="flex-grow  py-5 px-10 ">
           <Outlet />
         </main>
 

@@ -1,4 +1,5 @@
 import { FaBell, FaCog, FaSearch } from "react-icons/fa";
+import imageface from "../assets/landing-page-images/face3.jpg";
 
 const Navbar = () => {
   return (
@@ -27,7 +28,7 @@ const Navbar = () => {
           <div className="capitalize"> david temitope</div>
           <div className="rounded-full overflow-hidden w-10 h-10">
             <img
-              src="user-picture.jpg"
+              src={imageface}
               alt="User"
               className="w-full h-full object-cover"
             />
@@ -39,3 +40,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+git;
