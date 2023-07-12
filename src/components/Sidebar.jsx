@@ -15,7 +15,7 @@ const DashboardSidebar = () => {
       </div>
       <nav className="py-4 flex items-center justify-center ">
         <ul className="flex items-start flex-col justify-center gap-3">
-          <Link to="/DashboardClass">
+          <Link to="/">
             <li className="px-6 py-3 text-sm tracking-wide flex items-center">
               <span className="mr-2">
                 <FaClipboardList className="text-xl text-[#000D83] " />
@@ -28,8 +28,6 @@ const DashboardSidebar = () => {
               </a>
             </li>
           </Link>
-
-          <Link></Link>
 
           <li className="px-6 py-3 text-sm tracking-wide flex items-center">
             <span className="mr-2">
