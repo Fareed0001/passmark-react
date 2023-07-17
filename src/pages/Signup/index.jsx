@@ -21,7 +21,10 @@ const index = () => {
                   name="checkbox"
                   type="checkbox"
                 />
-                <label class="label agent-student-label" for="checkbox" />
+                <label
+                  class="label agent-student-label"
+                  htmlForfor="checkbox"
+                />
               </div>
               <p class="sign-up-header student-sign-up">
                 <i class="fa-solid fa-user sign-up-header-icon"></i>
@@ -39,19 +42,19 @@ const index = () => {
                 validate=""
               >
                 <div class="col-md-6">
-                  <label for="fname" class="form-label">
+                  <label htmlForfor="fname" class="form-label">
                     First name
                   </label>
                   <input type="text" class="form-control" id="fname" required />
                 </div>
                 <div class="col-md-6">
-                  <label for="lname" class="form-label">
+                  <label htmlForfor="lname" class="form-label">
                     Last name
                   </label>
                   <input type="text" class="form-control" id="lname" required />
                 </div>
                 <div class="col-md-6">
-                  <label for="email" class="form-label">
+                  <label htmlForfor="email" class="form-label">
                     Email
                   </label>
                   <input
@@ -62,13 +65,13 @@ const index = () => {
                   />
                 </div>
                 <div class="col-md-6">
-                  <label class="form-label" for="phone">
+                  <label class="form-label" htmlForfor="phone">
                     Phone number
                   </label>
                   <input type="text" id="phone" class="form-control" required />
                 </div>
                 <div class="col-md-6">
-                  <label for="inputPassword" class="form-label">
+                  <label htmlForfor="inputPassword" class="form-label">
                     Password
                   </label>
                   <input
@@ -79,7 +82,7 @@ const index = () => {
                   />
                 </div>
                 <div class="col-md-6">
-                  <label for="confirmPassword" class="form-label">
+                  <label htmlForfor="confirmPassword" class="form-label">
                     Confirm password
                   </label>
                   <input
@@ -90,7 +93,7 @@ const index = () => {
                   />
                 </div>
                 <div class="col-md-12 company-name-div">
-                  <label for="company" class="form-label">
+                  <label htmlForfor="company" class="form-label">
                     Company name
                   </label>
                   <input type="text" class="form-control" id="companyname" />
@@ -104,7 +107,10 @@ const index = () => {
                       value=""
                       id="flexCheckDefault"
                     />
-                    <label class="form-check-label" for="flexCheckDefault">
+                    <label
+                      class="form-check-label"
+                      htmlForfor="flexCheckDefault"
+                    >
                       Remember Me
                     </label>
                     <a class="forgot-password" href="">
@@ -121,7 +127,7 @@ const index = () => {
                         id="invalidCheck"
                         required
                       />
-                      <label class="form-check-label" for="invalidCheck">
+                      <label class="form-check-label" htmlForfor="invalidCheck">
                         I agree to the{" "}
                         <a class="terms-link" href="">
                           terms
