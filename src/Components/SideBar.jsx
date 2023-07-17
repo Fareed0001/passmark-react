@@ -1,62 +1,73 @@
 import React from "react";
-import { BiChalkboard, BiClipboard } from "react-icons/bi";
+import {
+  BiBookAdd,
+  BiChalkboard,
+  BiClipboard,
+  BiCommentAdd,
+  BiLogIn,
+  BiMessage,
+  BiPen,
+  BiSolidContact,
+} from "react-icons/bi";
+import Link from "next/link";
+import { FiSettings } from "react-icons/fi";
 
 const SideBar = () => {
   return (
     <div className="sidebar-components">
-      <a className="sidebar-link-tag" href="dashboard.html">
+      <Link className="sidebar-link-tag" href="/Dashboard">
         <div className="nav-item">
           <p className="nav-link-text">
             <BiClipboard className="sidebar-icons " /> <span>Dashboard</span>
           </p>
         </div>
-      </a>
-      <a className="sidebar-link-tag" href="#">
+      </Link>
+      <Link className="sidebar-link-tag" href="/DashboardClass">
         <div className="nav-item className-nav-item">
           <p className="nav-link-text">
             <BiChalkboard className="sidebar-icons " />
             My className
           </p>
         </div>
-      </a>
-      <a className="sidebar-link-tag" href="dashboard-instructor.html">
+      </Link>
+      <Link className="sidebar-link-tag" href="/DashboardInstructors">
         <div className="nav-item">
           <p className="nav-link-text">
-            <i className="fa-solid sidebar-icons fa-person-chalkboard"></i>
+            <BiPen className="sidebar-icons " />
             Instructors
           </p>
         </div>
-      </a>
-      <a className="sidebar-link-tag" href="dashboard-courses.html">
+      </Link>
+      <Link className="sidebar-link-tag" href="/DashboardCourses">
         <div className="nav-item">
           <p className="nav-link-text">
-            <i className="fa-solid sidebar-icons fa-book"></i> Courses
+            <BiBookAdd className="sidebar-icons" /> Courses
           </p>
         </div>
-      </a>
+      </Link>
       <a className="sidebar-link-tag" href="">
         <div className="nav-item">
           <p className="nav-link-text">
-            <i className="fa-solid sidebar-icons fa-comment fa-flip-horizontal"></i>
+            <BiMessage className="sidebar-icons " />
             Message
           </p>
         </div>
       </a>
-      <a className="sidebar-link-tag" href="dashboard-profile.html">
+      <Link className="sidebar-link-tag" href="/DashboardProfile">
         <div className="nav-item">
           <p className="nav-link-text">
-            <i className="fa-solid sidebar-icons fa-user"></i> Profile
+            <BiSolidContact className="sidebar-icons " /> Profile
           </p>
         </div>
-      </a>
-      <a className="sidebar-link-tag" href="dashboard-settings.html">
+      </Link>
+      <Link className="sidebar-link-tag" href="/DashboardSettings">
         <div className="nav-item">
           <p className="nav-link-text">
-            <i className="fa-solid sidebar-icons fa-gear"></i>
+            <FiSettings className="sidebar-icons " />
             Settings
           </p>
         </div>
-      </a>
+      </Link>
 
       <img
         className="sidebar-img"
@@ -67,7 +78,7 @@ const SideBar = () => {
       <a className="sidebar-link-tag" href="">
         <div className="nav-item">
           <p className="nav-link-text">
-            <i className="fa-solid sidebar-icons sidebar-icons fa-right-from-bracket"></i>{" "}
+            <BiLogIn className="sidebar-icons " />
             Log out
           </p>
         </div>
