@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-
+import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -46,16 +46,16 @@ export default function Home() {
                     </p>
                   </div>
                   <div class="nav-div-2">
-                    <a href="sign-in.html">
+                    <Link href="/Signin">
                       <button type="button" class="nav-button nav-sign-in">
                         Sign in
                       </button>
-                    </a>
-                    <a href="sign-up.html">
+                    </Link>
+                    <Link href="/Signup">
                       <button type="button" class="nav-button nav-sign-up">
                         Sign up
                       </button>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </nav>
@@ -75,11 +75,11 @@ export default function Home() {
                   premium courses for your skill development.
                 </p>
                 <div class="first-div-buttons">
-                  <a href="sign-up.html">
+                  <Link href="Signup">
                     <button type="button" class="nav-button try-now-button">
                       Try now
                     </button>
-                  </a>
+                  </Link>
                   <a href="sign-up.html">
                     <button type="button" class="nav-button play-video-button">
                       <i class="fa-solid fa-play play-video-icon"></i>Play video
@@ -101,8 +101,8 @@ export default function Home() {
           {/* <!-- SECOND DIV START --> */}
           <div class="second-div container" id="courses">
             <p class="section-header second-div-header">Our Popular Courses</p>
-            <div class="second-div-card-div row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 g-4">
-              <div class="second-div-card col">
+            <div class="second-div-card-div row">
+              <div class="second-div-card col-md-3">
                 <img
                   class="second-div-icon"
                   src="images\landing-page-images\business-vector.png"
@@ -112,7 +112,7 @@ export default function Home() {
                   Business <br /> marketing
                 </p>
               </div>
-              <div class="second-div-card  col">
+              <div class="second-div-card  col-md-3">
                 <img
                   class="second-div-icon"
                   src="images\landing-page-images\design-vector.png"
@@ -122,7 +122,7 @@ export default function Home() {
                   UI/UX <br /> design
                 </p>
               </div>
-              <div class="second-div-card  col">
+              <div class="second-div-card  col-md-3">
                 <img
                   class="second-div-icon"
                   src="images\landing-page-images\writing-vector.png"
@@ -132,7 +132,7 @@ export default function Home() {
                   Content <br /> writing
                 </p>
               </div>
-              <div class="second-div-card  col">
+              <div class="second-div-card  col-md-3">
                 <img
                   class="second-div-icon"
                   src="images\landing-page-images\web-development-vector.png"
@@ -142,7 +142,7 @@ export default function Home() {
                   Website <br /> development
                 </p>
               </div>
-              <div class="second-div-card  col">
+              <div class="second-div-card  col-md-3">
                 <img
                   class="second-div-icon"
                   src="images\landing-page-images\storage-vector.png"
@@ -175,12 +175,12 @@ export default function Home() {
                   own learning pace, and there's the added flexibility of
                   setting a schedule tat fits everyone.
                 </p>
-                <a href="sign-up.html">
+                <Link href="/Signup">
                   <button type="button" class="nav-button try-now-button">
                     <i class="fa-solid fa-fade fa-plus third-div-icon"></i>
                     Enroll now
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -290,12 +290,12 @@ export default function Home() {
                   own learning pace, and there's the added flexibility of
                   setting a schedule tat fits everyone.
                 </p>
-                <a href="sign-up.html">
+                <Link href="/Signup">
                   <button type="button" class="nav-button try-now-button">
                     <i class="fa-solid fa-fade fa-plus fifth-div-icon"></i>
                     Enroll now
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -477,11 +477,11 @@ export default function Home() {
                 />
               </div>
               <div class="seventh-div-col1 col-md">
-                <a href="sign-up.html">
+                <Link href="/Signup">
                   <button type="button" class="nav-button seventh-div-button">
                     Register now
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
