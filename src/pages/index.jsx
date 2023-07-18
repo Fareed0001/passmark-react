@@ -101,7 +101,7 @@ export default function Home() {
           {/* <!-- SECOND DIV START --> */}
           <div class="second-div container" id="courses">
             <p class="section-header second-div-header">Our Popular Courses</p>
-            <div class="second-div-card-div row">
+            <div class="second-div-card-div row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 g-4">
               <div class="second-div-card col-md-3">
                 <img
                   class="second-div-icon"
