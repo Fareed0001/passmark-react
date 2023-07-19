@@ -22,15 +22,15 @@ const SideBar = () => {
           </p>
         </div>
       </Link>
-      <Link className="sidebar-link-tag" href="/DashboardClass">
+      <Link className="sidebar-link-tag" href="/Dashboard/Class">
         <div className="nav-item className-nav-item">
           <p className="nav-link-text">
             <BiChalkboard className="sidebar-icons " />
-            My className
+            My class
           </p>
         </div>
       </Link>
-      <Link className="sidebar-link-tag" href="/DashboardInstructors">
+      <Link className="sidebar-link-tag" href="/Dashboard/Instructors">
         <div className="nav-item">
           <p className="nav-link-text">
             <BiPen className="sidebar-icons " />
@@ -38,7 +38,7 @@ const SideBar = () => {
           </p>
         </div>
       </Link>
-      <Link className="sidebar-link-tag" href="/DashboardCourses">
+      <Link className="sidebar-link-tag" href="/Dashboard/Courses">
         <div className="nav-item">
           <p className="nav-link-text">
             <BiBookAdd className="sidebar-icons" /> Courses
@@ -53,14 +53,14 @@ const SideBar = () => {
           </p>
         </div>
       </a>
-      <Link className="sidebar-link-tag" href="/DashboardProfile">
+      <Link className="sidebar-link-tag" href="/Dashboard/Profile">
         <div className="nav-item">
           <p className="nav-link-text">
             <BiSolidContact className="sidebar-icons " /> Profile
           </p>
         </div>
       </Link>
-      <Link className="sidebar-link-tag" href="/DashboardSettings">
+      <Link className="sidebar-link-tag" href="/Dashboard/Settings">
         <div className="nav-item">
           <p className="nav-link-text">
             <FiSettings className="sidebar-icons " />

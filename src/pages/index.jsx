@@ -17,42 +17,48 @@ export default function Home() {
         <section>
           <header>
             <nav>
-              <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                  <div class="nav-div-0">
+              <nav className="navbar navbar-expand-lg">
+                <div className="container">
+                  <div className="nav-div-0">
                     <p>
                       <span>
-                        <a class="nav-0-link nav-1-link0" href="#courses">
+                        <a className="nav-0-link nav-1-link0" href="#courses">
                           Courses
                         </a>
                       </span>
                       <span>
-                        <a class="nav-0-link nav-1-link1" href="#instructors">
+                        <a
+                          className="nav-0-link nav-1-link1"
+                          href="#instructors"
+                        >
                           Teachers
                         </a>
                       </span>
                       <span>
-                        <a class="nav-0-link nav-1-link2" href="#testimonies">
+                        <a
+                          className="nav-0-link nav-1-link2"
+                          href="#testimonies"
+                        >
                           Comments
                         </a>{" "}
                       </span>
                     </p>
                   </div>
-                  <div class="nav-div-1">
-                    <p class="logo-text">
-                      <span class="logo-span0">Pass</span>
-                      <i class="fa-solid fa-circle-check logo-icon"></i>
-                      <span class="logo-span0">mark</span>
+                  <div className="nav-div-1">
+                    <p className="logo-text">
+                      <span className="logo-span0">Pass</span>
+                      <i className="fa-solid fa-circle-check logo-icon"></i>
+                      <span className="logo-span0">mark</span>
                     </p>
                   </div>
-                  <div class="nav-div-2">
+                  <div className="nav-div-2">
                     <Link href="/Signin">
-                      <button type="button" class="nav-button nav-sign-in">
+                      <button type="button" className="nav-button nav-sign-in">
                         Sign in
                       </button>
                     </Link>
                     <Link href="/Signup">
-                      <button type="button" class="nav-button nav-sign-up">
+                      <button type="button" className="nav-button nav-sign-up">
                         Sign up
                       </button>
                     </Link>
@@ -63,33 +69,37 @@ export default function Home() {
           </header>
 
           {/* <!-- First DIV START --> */}
-          <div class="first-div container">
-            <div class="row">
-              <div class="first-div-col0 col-md">
-                <p class="first-div-title-text">your e-learning partner</p>
-                <p class="first-div-header">
+          <div className="first-div container">
+            <div className="row">
+              <div className="first-div-col0 col-md">
+                <p className="first-div-title-text">your e-learning partner</p>
+                <p className="first-div-header">
                   Online Learning Now In Your Finger Tips
                 </p>
-                <p class="first-div-sub-header">
+                <p className="first-div-sub-header">
                   Passmark is an online learning platform that offers various
                   premium courses for your skill development.
                 </p>
-                <div class="first-div-buttons">
+                <div className="first-div-buttons">
                   <Link href="Signup">
-                    <button type="button" class="nav-button try-now-button">
+                    <button type="button" className="nav-button try-now-button">
                       Try now
                     </button>
                   </Link>
                   <a href="sign-up.html">
-                    <button type="button" class="nav-button play-video-button">
-                      <i class="fa-solid fa-play play-video-icon"></i>Play video
+                    <button
+                      type="button"
+                      className="nav-button play-video-button"
+                    >
+                      <i className="fa-solid fa-play play-video-icon"></i>Play
+                      video
                     </button>
                   </a>
                 </div>
               </div>
-              <div class="first-div-col1 col-md">
+              <div className="first-div-col1 col-md">
                 <img
-                  class="first-div-gif"
+                  className="first-div-gif"
                   src="images\landing-page-images\e-learning.gif"
                   alt="e-learning gif"
                 />
@@ -99,56 +109,58 @@ export default function Home() {
           {/* <!-- FIRST DIV END  --> */}
 
           {/* <!-- SECOND DIV START --> */}
-          <div class="second-div container" id="courses">
-            <p class="section-header second-div-header">Our Popular Courses</p>
-            <div class="second-div-card-div row">
-              <div class="second-div-card col-md-3">
+          <div className="second-div container" id="courses">
+            <p className="section-header second-div-header">
+              Our Popular Courses
+            </p>
+            <div className="second-div-card-div row">
+              <div className="second-div-card col-md-2">
                 <img
-                  class="second-div-icon"
+                  className="second-div-icon"
                   src="images\landing-page-images\business-vector.png"
                   alt="business-icon"
                 />
-                <p class="second-div-text">
+                <p className="second-div-text">
                   Business <br /> marketing
                 </p>
               </div>
-              <div class="second-div-card  col-md-3">
+              <div className="second-div-card  col-md-2">
                 <img
-                  class="second-div-icon"
+                  className="second-div-icon"
                   src="images\landing-page-images\design-vector.png"
                   alt="design-icon"
                 />
-                <p class="second-div-text">
+                <p className="second-div-text">
                   UI/UX <br /> design
                 </p>
               </div>
-              <div class="second-div-card  col-md-3">
+              <div className="second-div-card  col-md-2">
                 <img
-                  class="second-div-icon"
+                  className="second-div-icon"
                   src="images\landing-page-images\writing-vector.png"
                   alt="writing-icon"
                 />
-                <p class="second-div-text">
+                <p className="second-div-text">
                   Content <br /> writing
                 </p>
               </div>
-              <div class="second-div-card  col-md-3">
+              <div className="second-div-card  col-md-2">
                 <img
-                  class="second-div-icon"
+                  className="second-div-icon"
                   src="images\landing-page-images\web-development-vector.png"
                   alt="web-dev-icon"
                 />
-                <p class="second-div-text">
+                <p className="second-div-text">
                   Website <br /> development
                 </p>
               </div>
-              <div class="second-div-card  col-md-3">
+              <div className="second-div-card  col-md-2">
                 <img
-                  class="second-div-icon"
+                  className="second-div-icon"
                   src="images\landing-page-images\storage-vector.png"
                   alt="cloud-storage-icon"
                 />
-                <p class="second-div-text">
+                <p className="second-div-text">
                   Cloud <br /> storage
                 </p>
               </div>
@@ -157,27 +169,27 @@ export default function Home() {
           {/* <!-- SECOND DIV END -->
 
     <!-- THIRD DIV START --> */}
-          <div class="third-div container">
-            <div class="row">
-              <div class="col-12 col-lg-6 third-div-col0">
+          <div className="third-div container">
+            <div className="row">
+              <div className="col-12 col-lg-6 third-div-col0">
                 <img
-                  class="third-div-img"
+                  className="third-div-img"
                   src="images\landing-page-images\scale-up.png"
                   alt="scale-up.jpg"
                 />
               </div>
-              <div class="col-12 col-lg-6 third-div-col1">
-                <p class="section-header third-div-header">
+              <div className="col-12 col-lg-6 third-div-col1">
+                <p className="section-header third-div-header">
                   Various types of courses to upscale your skill
                 </p>
-                <p class="section-text third-div-text">
+                <p className="section-text third-div-text">
                   Online learning allows the student and teacher to set their
                   own learning pace, and there's the added flexibility of
                   setting a schedule tat fits everyone.
                 </p>
                 <Link href="/Signup">
-                  <button type="button" class="nav-button try-now-button">
-                    <i class="fa-solid fa-fade fa-plus third-div-icon"></i>
+                  <button type="button" className="nav-button try-now-button">
+                    <i className="fa-solid fa-fade fa-plus third-div-icon"></i>
                     Enroll now
                   </button>
                 </Link>
@@ -187,82 +199,84 @@ export default function Home() {
           {/* <!--THIRD DIV END  -->
 
     <!-- FORTH DIV START  --> */}
-          <div class="forth-div container" id="instructors">
-            <p class="section-header forth-div-header">
+          <div className="forth-div container" id="instructors">
+            <p className="section-header forth-div-header">
               Our Expert{" "}
-              <span class="forth-div-header-colored">Instructor</span>
+              <span className="forth-div-header-colored">Instructor</span>
             </p>
-            <div class="forth-div-card-div">
-              <div class="row">
-                <div class="col-12 col-md-6 col-lg-3">
-                  <div class="forth-div-card card">
+            <div className="forth-div-card-div">
+              <div className="row">
+                <div className="col-12 col-md-6 col-lg-3">
+                  <div className="forth-div-card card">
                     <img
                       src="images\landing-page-images\design-instructor.jpg"
-                      class="forth-div-card-img card-img-top"
+                      className="forth-div-card-img card-img-top"
                       alt="..."
                     />
-                    <div class="forth-div-card-body">
-                      <p class="forth-div-card-header">
+                    <div className="forth-div-card-body">
+                      <p className="forth-div-card-header">
                         Kafayat Asus{" "}
-                        <span class="forth-div-card-icon">
-                          <i class="fa-brands fa-figma"></i>
+                        <span className="forth-div-card-icon">
+                          <i className="fa-brands fa-figma"></i>
                         </span>
                       </p>
-                      <p class="forth-div-card-sub-header">UI/UX Designer</p>
+                      <p className="forth-div-card-sub-header">
+                        UI/UX Designer
+                      </p>
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                  <div class="forth-div-card card">
+                <div className="col-12 col-md-6 col-lg-3">
+                  <div className="forth-div-card card">
                     <img
                       src="images\landing-page-images\developer-instructor.jpg"
-                      class="forth-div-card-img card-img-top"
+                      className="forth-div-card-img card-img-top"
                       alt="..."
                     />
-                    <div class="forth-div-card-body">
-                      <p class="forth-div-card-header">
+                    <div className="forth-div-card-body">
+                      <p className="forth-div-card-header">
                         Fareed Sylvester{" "}
-                        <span class="forth-div-card-icon">
-                          <i class="fa-solid fa-code"></i>
+                        <span className="forth-div-card-icon">
+                          <i className="fa-solid fa-code"></i>
                         </span>
                       </p>
-                      <p class="forth-div-card-sub-header">Web developer</p>
+                      <p className="forth-div-card-sub-header">Web developer</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                  <div class="forth-div-card card">
+                <div className="col-12 col-md-6 col-lg-3">
+                  <div className="forth-div-card card">
                     <img
                       src="images\landing-page-images\writing-instructor.jpg"
-                      class="forth-div-card-img card-img-top"
+                      className="forth-div-card-img card-img-top"
                       alt="landing page image"
                     />
-                    <div class="forth-div-card-body">
-                      <p class="forth-div-card-header">
+                    <div className="forth-div-card-body">
+                      <p className="forth-div-card-header">
                         Isiah Vincent{" "}
-                        <span class="forth-div-card-icon">
-                          <i class="fa-solid fa-marker"></i>
+                        <span className="forth-div-card-icon">
+                          <i className="fa-solid fa-marker"></i>
                         </span>
                       </p>
-                      <p class="forth-div-card-sub-header">Writer</p>
+                      <p className="forth-div-card-sub-header">Writer</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                  <div class="forth-div-card card">
+                <div className="col-12 col-md-6 col-lg-3">
+                  <div className="forth-div-card card">
                     <img
                       src="images\landing-page-images\business-instructure.jpg"
-                      class="forth-div-card-img card-img-top"
+                      className="forth-div-card-img card-img-top"
                       alt="..."
                     />
-                    <div class="forth-div-card-body">
-                      <p class="forth-div-card-header">
+                    <div className="forth-div-card-body">
+                      <p className="forth-div-card-header">
                         Aaron Abraham{" "}
-                        <span class="forth-div-card-icon">
-                          <i class="fa-solid fa-user-tie"></i>
+                        <span className="forth-div-card-icon">
+                          <i className="fa-solid fa-user-tie"></i>
                         </span>
                       </p>
-                      <p class="forth-div-card-sub-header">Businessman</p>
+                      <p className="forth-div-card-sub-header">Businessman</p>
                     </div>
                   </div>
                 </div>
@@ -272,27 +286,27 @@ export default function Home() {
           {/* <!-- FORTH DIV END  -->
 
     <!-- FIFTH DIV START  --> */}
-          <div class="fifth-div container">
-            <div class="row">
-              <div class="col-md-12 col-lg-6 fifth-div-col0">
+          <div className="fifth-div container">
+            <div className="row">
+              <div className="col-md-12 col-lg-6 fifth-div-col0">
                 <img
-                  class="fifth-div-img"
+                  className="fifth-div-img"
                   src="images\landing-page-images\track-learning.gif"
                   alt="scale-up.jpg"
                 />
               </div>
-              <div class="col-md-12 col-lg-6 fifth-div-col1">
-                <p class="section-header fifth-div-header">
+              <div className="col-md-12 col-lg-6 fifth-div-col1">
+                <p className="section-header fifth-div-header">
                   Track your learning and impove yourself more
                 </p>
-                <p class="section-text fifth-div-text">
+                <p className="section-text fifth-div-text">
                   Online learning allows the student and teacher to set their
                   own learning pace, and there's the added flexibility of
                   setting a schedule tat fits everyone.
                 </p>
                 <Link href="/Signup">
-                  <button type="button" class="nav-button try-now-button">
-                    <i class="fa-solid fa-fade fa-plus fifth-div-icon"></i>
+                  <button type="button" className="nav-button try-now-button">
+                    <i className="fa-solid fa-fade fa-plus fifth-div-icon"></i>
                     Enroll now
                   </button>
                 </Link>
@@ -302,60 +316,60 @@ export default function Home() {
           {/* <!-- FIFTH DIV END  -->
 
     <!-- SIXTH DIV START  --> */}
-          <div class="sixth-div container" id="testimonies">
-            <p class="section-header sixth-div-header">
-              What <span class="sixth-div-header-span">People</span> Say
+          <div className="sixth-div container" id="testimonies">
+            <p className="section-header sixth-div-header">
+              What <span className="sixth-div-header-span">People</span> Say
             </p>
 
             {/* <!-- carousel  --> */}
-            <section class="services">
-              <div class="circle--slider">
-                <div class="rotate--circle">
-                  <ul class="circle--rotate" id="circle--rotate">
-                    <li class="block">
-                      <div class="sixth-div-img-div">
+            <section className="services">
+              <div className="circle--slider">
+                <div className="rotate--circle">
+                  <ul className="circle--rotate" id="circle--rotate">
+                    <li className="block">
+                      <div className="sixth-div-img-div">
                         <img
-                          class="six-div-img"
+                          className="six-div-img"
                           src="images\landing-page-images\face0.jpg"
                           alt=""
                         />
                         <span></span>
                       </div>
                     </li>
-                    <li class="block">
-                      <div class="sixth-div-img-div">
+                    <li className="block">
+                      <div className="sixth-div-img-div">
                         <img
-                          class="six-div-img"
+                          className="six-div-img"
                           src="images\landing-page-images\face1.jpg"
                           alt=""
                         />
                         <span></span>
                       </div>
                     </li>
-                    <li class="block">
-                      <div class="sixth-div-img-div">
+                    <li className="block">
+                      <div className="sixth-div-img-div">
                         <img
-                          class="six-div-img"
+                          className="six-div-img"
                           src="images\landing-page-images\face2.jpg"
                           alt=""
                         />
                         <span></span>
                       </div>
                     </li>
-                    <li class="block">
-                      <div class="sixth-div-img-div">
+                    <li className="block">
+                      <div className="sixth-div-img-div">
                         <img
-                          class="six-div-img"
+                          className="six-div-img"
                           src="images\landing-page-images\face3.jpg"
                           alt=""
                         />
                         <span></span>
                       </div>
                     </li>
-                    <li class="block">
-                      <div class="sixth-div-img-div">
+                    <li className="block">
+                      <div className="sixth-div-img-div">
                         <img
-                          class="six-div-img"
+                          className="six-div-img"
                           src="images\landing-page-images\face4.jpg"
                           alt=""
                         />
@@ -363,13 +377,13 @@ export default function Home() {
                       </div>
                     </li>
                   </ul>
-                  <div class="animate-wrapper">
-                    <div class="animate">
-                      <div class="animate-img">
-                        <div class="animate-img__in">
-                          <div class="animate-more">
-                            <div class="animate-title">
-                              <p class="carousel-text">
+                  <div className="animate-wrapper">
+                    <div className="animate">
+                      <div className="animate-img">
+                        <div className="animate-img__in">
+                          <div className="animate-more">
+                            <div className="animate-title">
+                              <p className="carousel-text">
                                 This is the best place I have gotten an online
                                 education from
                               </p>
@@ -378,15 +392,15 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div class="animate">
-                      <div class="animate-img">
+                    <div className="animate">
+                      <div className="animate-img">
                         <div
-                          class="animate-img__in"
+                          className="animate-img__in"
                           data-image="&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80"
                         >
-                          <div class="animate-more">
-                            <div class="animate-title">
-                              <p class="carousel-text">
+                          <div className="animate-more">
+                            <div className="animate-title">
+                              <p className="carousel-text">
                                 This web portal is too soft for real. The web
                                 developer should be paid more
                               </p>
@@ -395,15 +409,15 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div class="animate">
-                      <div class="animate-img">
+                    <div className="animate">
+                      <div className="animate-img">
                         <div
-                          class="animate-img__in"
+                          className="animate-img__in"
                           data-image="&amp;auto=format&amp;fit=crop&amp;w=614&amp;q=80"
                         >
-                          <div class="animate-more">
-                            <div class="animate-title">
-                              <p class="carousel-text">
+                          <div className="animate-more">
+                            <div className="animate-title">
+                              <p className="carousel-text">
                                 At this point, I believe Fareed is not only
                                 good. He is the best
                               </p>
@@ -412,15 +426,15 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div class="animate">
-                      <div class="animate-img">
+                    <div className="animate">
+                      <div className="animate-img">
                         <div
-                          class="animate-img__in"
+                          className="animate-img__in"
                           data-image="&amp;auto=format&amp;fit=crop&amp;w=1350&amp;q=80"
                         >
-                          <div class="animate-more">
-                            <div class="animate-title">
-                              <p class="carousel-text">
+                          <div className="animate-more">
+                            <div className="animate-title">
+                              <p className="carousel-text">
                                 In need of quality education to study abroad.
                                 Use this web portal
                               </p>
@@ -429,15 +443,15 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <div class="animate">
-                      <div class="animate-img">
+                    <div className="animate">
+                      <div className="animate-img">
                         <div
-                          class="animate-img__in"
+                          className="animate-img__in"
                           data-image="&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80"
                         >
-                          <div class="animate-more">
-                            <div class="animate-title">
-                              <p class="carousel-text">
+                          <div className="animate-more">
+                            <div className="animate-title">
+                              <p className="carousel-text">
                                 Finally, a good place to gain international
                                 level standard knowledge
                               </p>
@@ -455,30 +469,33 @@ export default function Home() {
     <!-- SIXTH DIV END  -->
 
     <!-- SEVENTH DIV START  --> */}
-          <div class="seventh-div container">
-            <div class="seventh-div-header-div">
-              <p class="seventh-div-header">
+          <div className="seventh-div container">
+            <div className="seventh-div-header-div">
+              <p className="seventh-div-header">
                 Register today and get credible information, latest news,
                 courses, resources and alot more what{" "}
-                <span class="seventh-div-logo">
-                  <span class="seventh-logo-span0">Pass</span>
-                  <i class="fa-solid fa-circle-check seventh-logo-icon"></i>
-                  <span class="seventh-logo-span0">mark</span>
+                <span className="seventh-div-logo">
+                  <span className="seventh-logo-span0">Pass</span>
+                  <i className="fa-solid fa-circle-check seventh-logo-icon"></i>
+                  <span className="seventh-logo-span0">mark</span>
                 </span>{" "}
                 has to offer.
               </p>
             </div>
-            <div class="row">
-              <div class="seventh-div-col0 col-md">
+            <div className="row">
+              <div className="seventh-div-col0 col-md">
                 <img
-                  class="seventh-div-img"
+                  className="seventh-div-img"
                   src="images\landing-page-images\register-gif.gif"
                   alt="register-gif"
                 />
               </div>
-              <div class="seventh-div-col1 col-md">
+              <div className="seventh-div-col1 col-md">
                 <Link href="/Signup">
-                  <button type="button" class="nav-button seventh-div-button">
+                  <button
+                    type="button"
+                    className="nav-button seventh-div-button"
+                  >
                     Register now
                   </button>
                 </Link>
