@@ -5,15 +5,19 @@ import {
   BiClipboard,
   BiShieldMinus,
   BiSolidContact,
+  BiSolidCameraHome,
+  BiUserCheck,
+  BiSolidUserDetail,
+  BiSolidBookContent,
+  BiSolidUserRectangle,
 } from "react-icons/bi";
 import Link from "next/link";
-import { FiPenTool } from "react-icons/fi";
 
 const index = () => {
   return (
-    <section>
-      <div className="container body-content first-body-content">
-        <div className="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+    <section className="adminIndex">
+      <div className="container admin-container">
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
           <Link className="admin-card-link" href="/Admin/AddCourse">
             <div className="admin-card-div card mb-3">
               <div className="card-body flex items-center justify-center flex-col">
@@ -24,7 +28,7 @@ const index = () => {
           </Link>
 
           <Link className="admin-card-link " href="/Admin/AddNewClass">
-            <div className="admin-card-div  card mb-3">
+            <div className="admin-card-div card mb-3">
               <div className="card-body flex items-center justify-center flex-col">
                 <BiClipboard className=" admin-card-icon" />
                 <p className="admin-card-div-text card-text">Add new class</p>
@@ -37,7 +41,7 @@ const index = () => {
               <div className="card-body flex items-center justify-center flex-col">
                 <BiShieldMinus className="admin-card-icon" />
                 <p className="admin-card-div-text card-text">
-                  Schedule online className
+                  Schedule online class
                 </p>
               </div>
             </div>
@@ -56,9 +60,9 @@ const index = () => {
 
           <Link className="admin-card-link" href="Admin/AddNewInstructor">
             <div className="admin-card-div card mb-3">
-              <div className="card-body">
-                <p className="card-body flex items-center justify-center flex-col">
-                  <BiSolidContact className="admin-card-icon" />
+              <div className="card-body flex items-center justify-center flex-col">
+                <BiSolidContact className="admin-card-icon" />
+                <p className="admin-card-div-text card-text">
                   Add new instructor
                 </p>
               </div>
@@ -67,58 +71,63 @@ const index = () => {
         </div>
       </div>
 
-      <div className="container body-content second-body-content">
-        <div className="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+      <div className="container admin-container admin-second-div">
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
           <Link className="admin-card-link" href="/Admin/AdminStartOnlineClass">
             <div className="admin-card-div0 card mb-3">
               <div className="card-body flex items-center justify-center flex-col">
-                <FiPenTool className="admin-card-icon" />
+                <BiSolidCameraHome className="admin-card-icon" />
                 <p className="admin-card-div-text card-text">
-                  Start online className
+                  Start online class
                 </p>
               </div>
             </div>
           </Link>
 
-          <a className="admin-card-link" href="/Admin/SeeAllAdmin">
+          <Link className="admin-card-link" href="/Admin/SeeAllAdmin">
             <div className="admin-card-div0 card mb-3">
-              <div className="card-body">
-                <i className="fa-solid fa-user-secret admin-card-icon"></i>
-                <p className="admin-card-div-text card-text">See all agents</p>
+              <div className="card-body flex items-center justify-center flex-col">
+                <BiUserCheck className="admin-card-icon" />
+                <p className="admin-card-div-text card-text">
+                  See all agents
+                </p>
               </div>
             </div>
-          </a>
+          </Link>
 
-          <a className="admin-card-link" href="admin-see-all.html">
+          <Link className="admin-card-link" href="/Admin/SeeAllAdmin">
             <div className="admin-card-div0 card mb-3">
-              <div className="card-body">
-                <i className="fa-solid fa-chalkboard-user admin-card-icon"></i>
+              <div className="card-body flex items-center justify-center flex-col">
+                <BiSolidUserDetail className="admin-card-icon" />
                 <p className="admin-card-div-text card-text">
                   See all instructors
                 </p>
               </div>
             </div>
-          </a>
+          </Link>
 
-          <a className="admin-card-link" href="admin-see-all.html">
+          <Link className="admin-card-link" href="/Admin/SeeAllAdmin">
             <div className="admin-card-div0 card mb-3">
-              <div className="card-body">
-                <i className="fa-solid fa-swatchbook admin-card-icon"></i>
-                <p className="admin-card-div-text card-text">See all courses</p>
-              </div>
-            </div>
-          </a>
-
-          <a className="admin-card-link" href="admin-see-all.html">
-            <div className="admin-card-div0 card mb-3">
-              <div className="card-body">
-                <i className="fa-solid fa-user admin-card-icon"></i>
+              <div className="card-body flex items-center justify-center flex-col">
+                <BiSolidBookContent className="admin-card-icon" />
                 <p className="admin-card-div-text card-text">
-                  See all Students
+                  See all courses
                 </p>
               </div>
             </div>
-          </a>
+          </Link>
+
+          <Link className="admin-card-link" href="/Admin/SeeAllAdmin">
+            <div className="admin-card-div0 card mb-3">
+              <div className="card-body flex items-center justify-center flex-col">
+                <BiSolidUserRectangle className="admin-card-icon" />
+                <p className="admin-card-div-text card-text">
+                  See all students
+                </p>
+              </div>
+            </div>
+          </Link>
+
         </div>
       </div>
     </section>

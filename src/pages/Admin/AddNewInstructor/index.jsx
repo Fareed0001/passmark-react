@@ -2,13 +2,13 @@ import React from "react";
 
 const index = () => {
   return (
-    <section>
+    <section className="addNewCourse">
       <div className="container body-content">
-        <p className="header-text">Add a new instructor</p>
+        <p className="admin-header-text">Add a new instructor</p>
         <form action="">
           <div className="row container">
             <div className="input-field-div col-12 col-lg-12">
-              <label htmlFor="coverImage" className="form-label">
+              <label htmlFor="coverImage" className="form-label admin-form-label">
                 Instructor's profile picture
               </label>
               <input
@@ -20,7 +20,7 @@ const index = () => {
             </div>
 
             <div className="input-field-div col-12 col-lg-6">
-              <label htmlFor="instructorFname" className="form-label">
+              <label htmlFor="instructorFname" className="form-label admin-form-label">
                 Instructor's first name
               </label>
               <input
@@ -32,7 +32,7 @@ const index = () => {
             </div>
 
             <div className="input-field-div col-12 col-lg-6">
-              <label htmlFor="instructorLname" className="form-label">
+              <label htmlFor="instructorLname" className="form-label admin-form-label">
                 Instructor's last name
               </label>
               <input
@@ -44,7 +44,7 @@ const index = () => {
             </div>
           </div>
           <button
-            className="btn btn-primary add-new-instructor-button"
+            className="btn btn-primary  add-new-course-button"
             type="submit"
           >
             Add new instructor

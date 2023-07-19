@@ -2,13 +2,13 @@ import React from "react";
 
 const index = () => {
   return (
-    <section>
-      <div class="container body-content">
-        <p class="header-text">Add a new course</p>
+    <section className="addNewCourse">
+      <div class="container new-course-container">
+        <p class="admin-header-text">Add a new course</p>
         <form action="">
           <div class="row container">
-            <div class="input-field-div col-12 col-lg-6">
-              <label htmlFor="coverImage" class="form-label">
+            <div class="admin-input-field-div col-12 col-lg-6">
+              <label htmlFor="coverImage" class="form-label admin-form-label">
                 Select course cover image
               </label>
               <input
@@ -20,7 +20,7 @@ const index = () => {
             </div>
 
             <div class="input-field-div col-12 col-lg-6">
-              <label htmlFor="courseTitle" class="form-label">
+              <label htmlFor="courseTitle" class="form-label admin-form-label">
                 Course title
               </label>
               <input
@@ -32,18 +32,18 @@ const index = () => {
             </div>
 
             <div class="input-field-div col-lg-12">
-              <label htmlFor="courseDescription" class="form-label">
+              <label htmlFor="courseDescription" class="form-label admin-form-label">
                 Course description
               </label>
               <textarea
-                class="form-control text-area"
+                class="form-control admin-text-area"
                 placeholder="Enter the course description"
                 id="courseDescription"
               ></textarea>
             </div>
 
             <div class="input-field-div col-12 col-lg-6">
-              <label htmlFor="studentPrice" class="form-label">
+              <label htmlFor="studentPrice" class="form-label admin-form-label">
                 Student price
               </label>
               <div class="input-group">
@@ -59,7 +59,7 @@ const index = () => {
             </div>
 
             <div class="input-field-div col-12 col-lg-6">
-              <label htmlFor="agentPrice" class="form-label">
+              <label htmlFor="agentPrice" class="form-label admin-form-label">
                 Agent price
               </label>
               <div class="input-group">
@@ -75,7 +75,7 @@ const index = () => {
             </div>
 
             <div class="input-field-div col-lg-12">
-              <label htmlFor="classDuration" class="form-label">
+              <label htmlFor="classDuration" class="form-label admin-form-label">
                 Class duration in days
               </label>
               <input

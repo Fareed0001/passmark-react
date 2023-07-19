@@ -2,9 +2,9 @@ import React from "react";
 
 const index = () => {
   return (
-    <section>
-      <div class="container body-content">
-        <p class="header-text">Verify new agent</p>
+    <section className="addNewCourse">
+      <div class="container  new-course-container">
+        <p class="admin-header-text">Verify new agent</p>
 
         <div class="agent-verification-div">
           {/* <!-- NEW AGENT CARD START  --> */}
