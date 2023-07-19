@@ -2857,6 +2857,128 @@ input[type="checkbox"] {
 
 
 
+
+/* SIGN-IN.HTML START  */
+.signinPage {
+  background-color: #ebeefd;
+}
+
+.sign-in-img {
+  width: 80%;
+  margin-left: 10%;
+}
+
+/* FORM START  */
+.signin-form {
+  margin: auto;
+}
+
+.signin-form-label,
+.form-check-label,
+.forgot-password,
+.account {
+  font-size: .8rem;
+}
+
+.check-boxes-div {
+  margin: 5% 0 10%;
+}
+
+.terms-link {
+  text-decoration: none;
+}
+
+.forgot-password {
+  float: right;
+  text-decoration: none;
+}
+
+.account-link {
+  text-decoration: none;
+}
+
+.create-account-button,
+.google-button {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.button-icons {
+  margin: .2rem .4rem;
+}
+
+/* FORM END  */
+
+/* start of tablet styles */
+@media screen and (min-width: 767px) {
+  .sign-in-img {
+    width: 70%;
+    margin: 30% 20% 0;
+  }
+
+  .signin-form {
+    width: 90%;
+  }
+}
+
+/* start of pc styles */
+@media screen and (min-width: 991px) {
+.signin-container {
+  padding: 5%;
+}
+
+  .sign-in-img {
+    width: 80%;
+    margin: 0 0 0 15%;
+  }
+
+  /* FORM START  */
+  .signin-form {
+    padding-top: 10%;
+    width: 80%;
+    margin: auto;
+  }
+
+  .signin-form-label,
+  .form-check-label,
+  .forgot-password,
+  .account {
+    font-size: .8rem;
+  }
+
+  .check-boxes-div {
+    margin: 5% 0 10%;
+  }
+
+  .terms-link {
+    text-decoration: none;
+  }
+
+  .forgot-password {
+    float: right;
+    text-decoration: none;
+  }
+
+  .account-link {
+    text-decoration: none;
+  }
+
+  .create-account-button,
+  .google-button {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .button-icons {
+    margin: .2rem .4rem;
+  }
+
+  /* FORM END  */
+}
+
+/* SIGN-IN.HTML END  */
+
+
+
+
 /* DASHBOARD.HTML START  */
 .body-content {
   padding: 3% 0 0;
@@ -3644,6 +3766,218 @@ input[type="checkbox"] {
 
 
 
+
+/* CHECKOUT.HTML START  */
+.checkoutPage {
+  background-color: #ebeefd;
+  padding: 3% 3% 5%;
+}
+
+.checkout-div {
+  background-color: white;
+  width: 60%;
+  border-radius: 24px;
+  padding: 5%;
+  margin: auto;
+}
+
+.checkout-side-image {
+  width: 90%;
+  margin: 30% 0 0;
+}
+
+.checkout-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.checkout-form-col {
+  margin: 3% 0 0 0;
+}
+
+.checkout-form-label {
+  font-size: .8rem;
+}
+
+.form-input-field {
+  color: black;
+}
+
+.form-input-field,
+.form-input-field::placeholder {
+  font-size: .8rem;
+}
+
+.card-name-input {
+  width: 80%;
+}
+
+.card-number-input {
+  width: 82%;
+}
+
+.input-group-text {
+  height: 2.4rem;
+}
+
+.card-animation {
+  width: 2rem;
+}
+
+.card-expiring-date-input {
+  width: 70%;
+}
+
+.card-cvv-input {
+  width: 40%;
+}
+
+.form-check {
+  padding: 2% 0 0 11%;
+}
+
+.form-check-div {
+  margin: 0 0 0 .5%;
+  }
+
+.form-check-label {
+  color: grey;
+  padding: 0 0 0 2%;
+}
+
+.payment-summary-input {
+  width: 80%;
+}
+
+.checkout-form-btn {
+  font-size: .8rem;
+  width: 100%;
+}
+
+
+/* CHECKOUT MEDIA QUERY START */
+
+/* start of pc styles */
+@media screen and (max-width: 991px) {
+  /* ie it ends at 991px */
+
+  .checkoutPage {
+    padding: 10% 5% 25%;
+  }
+  
+  .checkout-div {
+    width: 60%;   
+  }
+
+  .checkout-first-col {
+      text-align: center;
+  }
+
+  .checkout-side-image {
+      width: 30%;
+      margin: auto;
+  }
+
+  .checkout-bank-details {
+      margin: 5% 0 0 0;
+  }
+
+  .checkout-header {
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 600;
+  }
+
+  .checkout-input-div {
+      width: 80%;
+      margin: auto;
+  }
+
+  .checkout-form-col {
+      margin: 3% 0 0 0;
+  }
+
+  .card-name-input {
+      width: 100%;
+  }
+
+  .card-number-input {
+      width: 100%;
+  }
+
+  .input-group-text {
+      padding: 3px 6px;
+  }
+
+  .card-animation {
+      width: 2rem;
+  }
+
+  .card-expiring-date-input {
+      width: 60%;
+  }
+
+  .card-cvv-input {
+      width: 35%;
+  }
+
+  .payment-summary-input {
+      width: 100%;
+  }
+
+  .checkout-form-btn {
+      width: 100%;
+  }
+
+}
+
+/* start of medium tablet styles */
+@media screen and (max-width: 767px) {
+  /* ie it ends at 767px */
+
+  .checkoutPage {
+    padding: 10% 5% 30%;
+  }
+
+  .checkout-div {
+    width: 80%;   
+    padding: 8% 5%;
+  }
+}
+
+/* start of phone styles */
+@media screen and (max-width: 479px) {
+  /* ie it ends at 479px */
+  .checkoutPage {
+    padding: 0;
+  }
+
+  .checkout-div {
+      width: 100%;
+      padding: 5%;
+      border-radius: 0;
+  }
+
+  .checkout-header {
+      font-size: 1.2rem;
+  }
+
+  .checkout-input-div {
+      width: 80%;
+  }
+  
+  .card-expiring-date-input {
+      width: 70%;
+  }
+
+  .card-cvv-input {
+      width: 40%;
+  }
+}
+
+/* CHECKOUT MEDIA QUERY END  */
+/* CHECKOUT.HTML END  */
 
 
 
