@@ -13,7 +13,7 @@ const index = () => {
           </p>
         </div>
         <div class="settings-email-div">
-          <label for="settingsEmail1" class="form-label">
+          <label for="settingsEmail1" class="form-label dashboard-settings-form-label">
             Email:
           </label>
           <input

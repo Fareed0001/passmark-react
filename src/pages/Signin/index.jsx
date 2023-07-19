@@ -2,8 +2,8 @@ import React from "react";
 
 const index = () => {
   return (
-    <section>
-      <div className="container-fluid">
+    <section className="signinPage">
+      <div className="container-fluid signin-container">
         <div className="row">
           <div className="col-12 col-md-4 col-lg-6 sign-in-first-col">
             <img
@@ -18,11 +18,11 @@ const index = () => {
               <form
                 action=""
                 method="post"
-                className="row g-2 needs-validation form"
+                className="row g-2 needs-validation form signin-form"
                 validate=""
               >
                 <div className="col-md-12">
-                  <label htmlFor="email" className="form-label">
+                  <label htmlFor="email" className="form-label signin-form-label">
                     Email
                   </label>
                   <input
@@ -34,7 +34,7 @@ const index = () => {
                 </div>
 
                 <div className="col-md-12">
-                  <label htmlFor="inputPassword" className="form-label">
+                  <label htmlFor="inputPassword" className="form-label signin-form-label">
                     Password
                   </label>
                   <input
@@ -113,7 +113,7 @@ const index = () => {
 
                 <p className="account">
                   I don't have an account?{" "}
-                  <a className="account-link" href="sign-up.html">
+                  <a className="account-link" href="Signup">
                     Sign up
                   </a>
                 </p>

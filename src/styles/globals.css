@@ -1,9 +1,14 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
-body {
-  background-color: red;
+@tailwind utilities;@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+.main {
+  background-color: #ebeefd;
   font-family: "Poppins", sans-serif;
+  padding: 3%;
+}
+
+body {
   margin: 5% auto;
 }
 
@@ -2542,8 +2547,15 @@ body {
 /* INDEX.HTML PAGE END  */
 
 /* SIGN-UP.HTML START  */
-
 /* SIGN UP FIRST COL START */
+.signupPage {
+  background-color: #ebeefd;
+}
+
+.sign-up-container {
+  padding: 4%;
+}
+
 .sign-up-first-col {
   text-align: center;
 }
@@ -2648,7 +2660,7 @@ input[type="checkbox"] {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.form-label,
+.signup-form-label,
 .form-check-label,
 .forgot-password,
 .account {
@@ -2697,10 +2709,8 @@ input[type="checkbox"] {
 
 /* start of pc styles */
 @media screen and (min-width: 991px) {
-  body {
-    background-color: #ebeefd;
-    font-family: "Poppins", sans-serif;
-    /* margin: 4% auto; */
+  .signupPage {
+    padding: 1%;
   }
 
   /* SIGN UP FIRST COL START */
@@ -2712,8 +2722,6 @@ input[type="checkbox"] {
   .sign-up-img {
     width: 80%;
   }
-
-  /* SIGN UP FIRST COL START */
 
   /* SIGN UP FIRST COL END */
 
@@ -2787,7 +2795,6 @@ input[type="checkbox"] {
   }
 
   /* AGENT STUDENT CHECKBOX  */
-
   .sign-up-header {
     font-size: 1.4rem;
     color: #4b5fdc;
@@ -2796,18 +2803,6 @@ input[type="checkbox"] {
 
   .sign-up-header-icon {
     margin-right: 0.2rem;
-  }
-
-  .sign-up-second-col {
-    padding-right: 5%;
-  }
-
-  .signupPage {
-    margin: 0 auto;
-    height: 100%;
-    width: 100%;
-    background-color: #ebeefd;
-    font-family: "Poppins", sans-serif;
   }
 
   /* FORM START  */
@@ -2819,7 +2814,7 @@ input[type="checkbox"] {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
-  .form-label,
+  .signup-form-label,
   .form-check-label,
   .forgot-password,
   .account {
@@ -2857,6 +2852,9 @@ input[type="checkbox"] {
 }
 
 /* SIGN-UP.HTML END  */
+
+
+
 
 /* DASHBOARD.HTML START  */
 .body-content {
@@ -3547,7 +3545,7 @@ input[type="checkbox"] {
   margin: 5% 0 0;
 }
 
-.form-label {
+.dashboard-settings-form-label {
   font-size: 0.9rem;
   font-weight: 600;
 }
@@ -3642,6 +3640,51 @@ input[type="checkbox"] {
 }
 
 /* DASHBOARD-SETTINGS.HTML END  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* HEADER AND SIDE BAR STYLES START  */
 

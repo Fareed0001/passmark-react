@@ -2,8 +2,7 @@ import React from "react";
 
 const index = () => {
   return (
-    <section>
-      <div className="dashboard-div">
+    <section className="checkoutPage">
         <div className="checkout-div">
           <div className="row">
             <div className="col-lg-6 checkout-first-col">
@@ -19,8 +18,8 @@ const index = () => {
               </div>
               <div className="checkout-input-div">
                 <form className="row needs-validation" novalidate>
-                  <div className="col-12 form-col">
-                    <label htmlFor="cardOwnerName" className="form-label">
+                  <div className="col-12 checkout-form-col">
+                    <label htmlFor="cardOwnerName" className="form-label checkout-form-label">
                       Name on card
                     </label>
                     <input
@@ -31,8 +30,8 @@ const index = () => {
                       required
                     />
                   </div>
-                  <div className="col-12 form-col">
-                    <label htmlFor="cardNumber" className="form-label">
+                  <div className="col-12 checkout-form-col">
+                    <label htmlFor="cardNumber" className="form-label checkout-form-label">
                       card number
                     </label>
                   </div>
@@ -54,8 +53,8 @@ const index = () => {
                       />
                     </span>
                   </div>
-                  <div className="col-6 col-lg-6 form-col">
-                    <label htmlFor="expiringDate" className="form-label">
+                  <div className="col-6 col-lg-6 checkout-form-col">
+                    <label htmlFor="expiringDate" className="form-label checkout-form-label">
                       Expiring date
                     </label>
                     <input
@@ -66,8 +65,8 @@ const index = () => {
                       required
                     />
                   </div>
-                  <div className="col-6 col-lg-6 form-col">
-                    <label htmlFor="cvvCode" className="form-label">
+                  <div className="col-6 col-lg-6 checkout-form-col">
+                    <label htmlFor="cvvCode" className="form-label checkout-form-label">
                       CVV/CVC
                     </label>
                     <input
@@ -79,7 +78,7 @@ const index = () => {
                       required
                     />
                   </div>
-                  <div className="col-12 form-col form-check">
+                  <div className="col-12 checkout-form-col form-check-div">
                     <input
                       className="form-check-input"
                       type="checkbox"
@@ -87,14 +86,14 @@ const index = () => {
                       id="flexCheckDefault"
                     />
                     <label
-                      className="form-check-label form-label"
+                      className="form-check-label form-label checkout-form-label"
                       htmlFor="flexCheckDefault"
                     >
-                      Remember this card htmlFor later
+                      Remember this card for later
                     </label>
                   </div>
-                  <div className="col-12 form-col">
-                    <label htmlFor="paymentSummary" className="form-label">
+                  <div className="col-12 checkout-form-col">
+                    <label htmlFor="paymentSummary" className="form-label checkout-form-label">
                       SAT
                     </label>
                     <input
@@ -105,10 +104,10 @@ const index = () => {
                       readonly
                     />
                   </div>
-                  <div className="col-12 form-col d-grid">
+                  <div className="col-12 checkout-form-col d-grid">
                     <button
                       type="submit"
-                      className="btn btn-primary btn-large form-btn"
+                      className="btn btn-primary btn-large checkout-form-btn"
                     >
                       Buy Course
                     </button>
@@ -118,7 +117,6 @@ const index = () => {
             </div>
           </div>
         </div>
-      </div>
     </section>
   );
 };
