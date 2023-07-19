@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="images/logo/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <section>
+        <section className="landingPage">
           <header>
             <nav>
               <nav className="navbar navbar-expand-lg">

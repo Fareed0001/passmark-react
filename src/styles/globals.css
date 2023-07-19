@@ -23,6 +23,10 @@ body {
 /* font-family: 'DM Serif Display', serif; */
 
 /* INDEX.HTML PAGE START  */
+.landingPage {
+  padding: 3% auto;
+}
+
 .section-header {
   color: var(--primary-color);
   font-family: "DM Serif Display", serif;
